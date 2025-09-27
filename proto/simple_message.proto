@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package lab3;
+
+// one required string field as the spec suggests
+message SimpleMessage {
+  string sender_name = 1;
+}
