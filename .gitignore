@@ -1,0 +1,56 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Secrets / local environment
+.env
+.env.*
+*.local
+
+# CMake / C++ build output
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+cmake_install.cmake
+install_manifest.txt
+Testing/
+CTestTestfile.cmake
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Nix build result symlink
+result
+result-*
+
+# Generic dependency / cache folders
+.cache/
+tmp/
+temp/
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
